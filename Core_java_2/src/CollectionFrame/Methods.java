@@ -6,6 +6,7 @@ public class Methods {
 
 	public static void main(String[] args) {
 
+		//size method for collection size
 		ArrayList<String> al1 = new ArrayList<String>();
 		al1.add("parvez");
 		al1.add("junaid");
@@ -13,6 +14,7 @@ public class Methods {
 		System.out.println(al1);
 		System.out.println(al1.size());
 		
+		// for finding that collection is empty or not
 		System.out.println();
 		ArrayList<String> al2 = new ArrayList<String>();
 		al2.add("akram");
@@ -21,6 +23,8 @@ public class Methods {
 		System.out.println(al2);
 		System.out.println(al1.isEmpty());
 		
+		
+		//for clearing every entity from collection
 		System.out.println();
 		ArrayList<String> al3 = new ArrayList<String>();
 		al3.add("irfan");
