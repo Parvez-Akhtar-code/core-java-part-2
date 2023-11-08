@@ -23,7 +23,7 @@ public class LinkedListEx {
 		System.out.println();
 		ll.removeFirst();
 		System.out.println(ll);
-		
+		System.out.println();
 		System.out.println(ll.removeLast());
 		System.out.println(ll);
 		
